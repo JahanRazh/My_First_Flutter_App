@@ -20,9 +20,13 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Column(
             children: [
-              Image.asset(
-                "assets/space1.png",
-                height: 200,
+              Padding(
+                padding: const EdgeInsets.all(
+                    50.0), // all repalce pading customize "only" use (top/bottom/lefr/right)
+                child: Image.asset(
+                  "assets/space1.png",
+                  height: 200,
+                ),
               ),
               const SizedBox(
                 height: 20,
