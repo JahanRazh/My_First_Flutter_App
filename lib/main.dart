@@ -12,20 +12,23 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "new app",
       home: Scaffold(
+        backgroundColor: Colors.black,
         appBar: AppBar(
           title: const Text("Flutter App"),
           backgroundColor: Colors.orangeAccent,
         ),
-        body: Container(
-          height: 100,
-          width: 100,
-          decoration: BoxDecoration(
-            color: Colors.red,
-            border: Border.all(
-              color: Colors.black,
-              width: 2,
-            ),
-            borderRadius: BorderRadius.circular(1000),
+        body: Center(
+          child: Column(
+            children: [
+              Image.asset(
+                "assets/space1.png",
+                height: 200,
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              Image.asset("assets/space1.png"),
+            ],
           ),
         ),
       ),
