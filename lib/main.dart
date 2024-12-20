@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.black,
         appBar: AppBar(
           title: const Text("Flutter App"),
-          backgroundColor: Colors.orangeAccent,
+          backgroundColor: const Color.fromARGB(255, 233, 11, 3),
         ),
         body: Center(
           child: Column(
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              Image.asset("assets/space1.png"),
+              Image.asset("assets/space2.png"),
             ],
           ),
         ),
