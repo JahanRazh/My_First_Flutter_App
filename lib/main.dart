@@ -18,37 +18,13 @@ class MyAPP extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
-                height: 170,
-                width: double.infinity,
+                height: 150,
+                width: 150,
                 decoration: BoxDecoration(
-                  color: Colors.red,
+                  color: Colors.green,
                   borderRadius: BorderRadius.circular(5),
                 ),
-              ),
-              Container(
-                height: 170,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  color: Colors.red,
-                  borderRadius: BorderRadius.circular(5),
-                ),
-              ),
-              Container(
-                height: 170,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  color: Colors.red,
-                  borderRadius: BorderRadius.circular(5),
-                ),
-              ),
-              Container(
-                height: 240,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  color: Colors.red,
-                  borderRadius: BorderRadius.circular(5),
-                ),
-              ),
+              )
             ],
           ),
         ),
