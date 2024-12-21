@@ -15,9 +15,10 @@ class MyAPP extends StatelessWidget {
         child: Scaffold(
           backgroundColor: Colors.black,
           body: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
-                height: 100,
+                height: 170,
                 width: double.infinity,
                 decoration: BoxDecoration(
                   color: Colors.red,
@@ -25,7 +26,7 @@ class MyAPP extends StatelessWidget {
                 ),
               ),
               Container(
-                height: 100,
+                height: 170,
                 width: double.infinity,
                 decoration: BoxDecoration(
                   color: Colors.red,
@@ -33,7 +34,7 @@ class MyAPP extends StatelessWidget {
                 ),
               ),
               Container(
-                height: 100,
+                height: 170,
                 width: double.infinity,
                 decoration: BoxDecoration(
                   color: Colors.red,
@@ -41,7 +42,7 @@ class MyAPP extends StatelessWidget {
                 ),
               ),
               Container(
-                height: 300,
+                height: 240,
                 width: double.infinity,
                 decoration: BoxDecoration(
                   color: Colors.red,
