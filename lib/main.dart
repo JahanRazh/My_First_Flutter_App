@@ -25,6 +25,8 @@ class MyAPP extends StatelessWidget {
                 ),
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment
+                    .spaceBetween, // space create between widgets
                 children: [
                   Container(
                     height: 125,
