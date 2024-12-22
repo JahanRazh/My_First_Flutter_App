@@ -15,16 +15,35 @@ class MyAPP extends StatelessWidget {
         child: Scaffold(
           backgroundColor: Colors.black,
           body: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
-                height: 150,
-                width: 150,
+                height: 125,
+                width: double.infinity,
                 decoration: BoxDecoration(
                   color: Colors.green,
                   borderRadius: BorderRadius.circular(5),
                 ),
-              )
+              ),
+              Row(
+                children: [
+                  Container(
+                    height: 125,
+                    width: 125,
+                    decoration: BoxDecoration(
+                      color: Colors.greenAccent,
+                      borderRadius: BorderRadius.circular(5),
+                    ),
+                  ),
+                  Container(
+                    height: 125,
+                    width: 125,
+                    decoration: BoxDecoration(
+                      color: Colors.greenAccent,
+                      borderRadius: BorderRadius.circular(5),
+                    ),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
