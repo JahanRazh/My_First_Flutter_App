@@ -29,7 +29,7 @@ class MyAPP extends StatelessWidget {
                 height: 170,
                 width: double.infinity,
                 decoration: BoxDecoration(
-                  color: Colors.red,
+                  color: Colors.blue,
                   borderRadius: BorderRadius.circular(5),
                 ),
               ),
@@ -37,7 +37,7 @@ class MyAPP extends StatelessWidget {
                 height: 170,
                 width: double.infinity,
                 decoration: BoxDecoration(
-                  color: Colors.red,
+                  color: Colors.yellow,
                   borderRadius: BorderRadius.circular(5),
                 ),
               ),

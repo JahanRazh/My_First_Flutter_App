@@ -22,7 +22,7 @@ class MyAPP extends StatelessWidget {
                 height: 125,
                 width: double.infinity,
                 decoration: BoxDecoration(
-                  color: Colors.green,
+                  color: Colors.redAccent,
                   borderRadius: BorderRadius.circular(5),
                 ),
               ),
@@ -34,7 +34,7 @@ class MyAPP extends StatelessWidget {
                     height: 125,
                     width: 195,
                     decoration: BoxDecoration(
-                      color: Colors.greenAccent,
+                      color: Colors.blueAccent,
                       borderRadius: BorderRadius.circular(5),
                     ),
                   ),
@@ -64,7 +64,7 @@ class MyAPP extends StatelessWidget {
                     height: 125,
                     width: 125,
                     decoration: BoxDecoration(
-                      color: Colors.greenAccent,
+                      color: const Color.fromARGB(255, 240, 105, 161),
                       borderRadius: BorderRadius.circular(5),
                     ),
                   ),
@@ -72,7 +72,7 @@ class MyAPP extends StatelessWidget {
                     height: 125,
                     width: 125,
                     decoration: BoxDecoration(
-                      color: Colors.greenAccent,
+                      color: const Color.fromARGB(255, 105, 163, 240),
                       borderRadius: BorderRadius.circular(5),
                     ),
                   ),
@@ -80,7 +80,7 @@ class MyAPP extends StatelessWidget {
                     height: 125,
                     width: 125,
                     decoration: BoxDecoration(
-                      color: Colors.greenAccent,
+                      color: const Color.fromARGB(255, 240, 105, 188),
                       borderRadius: BorderRadius.circular(5),
                     ),
                   ),
@@ -90,7 +90,7 @@ class MyAPP extends StatelessWidget {
                 height: 125,
                 width: double.infinity,
                 decoration: BoxDecoration(
-                  color: Colors.green,
+                  color: const Color.fromARGB(255, 153, 175, 76),
                   borderRadius: BorderRadius.circular(5),
                 ),
               ),
